@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: nome;
+    font-family: 'Roboto mono';
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    height: 100vh;          /* Altura total da tela */
+    background-color: #f0f0f0; /* Cor de fundo da página */
+}
+
+.linha{
+    width: 1px;
+    height: 70%;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    left: 40%;
+    top: 20%;
+    
+}
+#cpf{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+}
+#cpf label, #senha label{
+    margin-bottom: 3%;
+    font-size: 20px;
+}
+
+#cpf input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: solid 2px black;
+}
+#senha input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 2px rgb(0, 0, 0);
+    text-align: center;
+}
+#senha{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15%;
+}
+
+#caixalogin{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 800px; 
+	height: 550px; 
+	background-image: url(lula/lula13.jpeg);
+    background-repeat:no-repeat ;
+    background-size: 100%;
+	position: absolute; 
+    justify-content: center;
+	top: 100px;
+	border-radius: 20px;
+    justify-content: center;
+}
+#login{
+    text-align: center;
+    margin-bottom: 25%;
+}
+#formulariologin{
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+#enviar{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-bottom: 4%;
+}
